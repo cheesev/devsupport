@@ -1,4 +1,8 @@
 ## 소개
+hyperlinkDetector extension point를 활용하여 java와 xml을 파싱하여 특정 string을 특정 action과 매핑 시킬때 참고할만한 프로젝트.
+
+## 프로젝트 설명
+
 * com.golfzon.devsupport - main plugin project
 * com.golfzon.devsupport.feature - feature
 * com.golfzon.devsupport.update - update site
