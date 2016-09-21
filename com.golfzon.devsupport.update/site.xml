@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.golfzon.devsupport.feature_1.0.0.201609210941.jar" id="com.golfzon.devsupport.feature" version="1.0.0.201609210941">
+      <category name="com.golfzon.devsupport.category"/>
+   </feature>
+   <category-def name="com.golfzon.devsupport.category" label="golfzon devsupport category">
+      <description>
+         Contains feautres for java development to help your working
+      </description>
+   </category-def>
+</site>
