@@ -1,7 +1,7 @@
 ## 소개
 * com.golfzon.devsupport - main plugin project
 * com.golfzon.devsupport.feature - feature
-* com.golfzon.devsupport.feature - update site
+* com.golfzon.devsupport.update - update site
 
 ## 소스코드
 
