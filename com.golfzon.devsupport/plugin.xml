@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+<!--
+   <extension
+         point="org.eclipse.ui.propertyPages">
+      <page
+            name="SPSupport"
+            nameFilter="*.*"
+            class="com.golfzon.devsupport.properties.SPSupportPropertyPage"
+            id="com.golfzon.devsupport.properties.samplePropertyPage">
+         <enabledWhen>
+            <instanceof
+                  value="org.eclipse.core.resources.IFile">
+            </instanceof>
+         </enabledWhen>
+      </page>
+   </extension>
+   
+   <extension point="org.eclipse.ui.preferencePages">
+ 		<page name="SP Viewer"
+ 		class="com.golfzon.devsupport.preference.SPPreferencePage"
+ 		id="com.golfzon.devsupport.preference.sp.page"/>
+   </extension>
+-->
+   <extension
+         point="org.eclipse.ui.workbench.texteditor.hyperlinkDetectors">
+      <hyperlinkDetector
+            activate="true"
+            class="com.golfzon.devsupport.link.SPHyperlinkDetector"
+            id="com.golfzon.devsupport.link.hyperlinkDetector"
+            name="SPHyperlinkDetector"
+            targetId="org.eclipse.jdt.ui.javaCode">
+      </hyperlinkDetector>
+      
+      <hyperlinkDetector
+            class="com.golfzon.devsupport.link.XMLHyperlinkDetector"
+            id="org.eclipse.ui.internal.editors.text.XMLHyperlinkDetector"
+            name="XMLHyperlinkDetector"
+            targetId="org.eclipse.core.runtime.xml">
+      </hyperlinkDetector>
+   </extension>
+
+</plugin>
